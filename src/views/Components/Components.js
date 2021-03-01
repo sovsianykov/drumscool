@@ -55,10 +55,11 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Sergey Drums Universe</h1>
+                <h1 className={classes.title}>Sangit Drum</h1>
                 <h3 className={classes.subtitle}>
-                  A best lessons money can buy
                 </h3>
+                <h2> Проект Сергея Табунщика</h2>
+
               </div>
             </GridItem>
           </GridContainer>
