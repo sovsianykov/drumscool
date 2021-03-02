@@ -18,7 +18,7 @@ import Button from "components/CustomButtons/Button.js";
 
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/javascriptStyles.js";
-import { LibraryMusicSharp, MusicNoteTwoTone, QueueMusicOutlined } from "@material-ui/icons";
+import { LibraryMusicSharp } from "@material-ui/icons";
 
 const useStyles = makeStyles(styles);
 
@@ -30,10 +30,10 @@ Transition.displayName = "Transition";
 
 export default function MoDalNews() {
   const classes = useStyles();
-  const [anchorElLeft, setAnchorElLeft] = React.useState(null);
-  const [anchorElTop, setAnchorElTop] = React.useState(null);
-  const [anchorElBottom, setAnchorElBottom] = React.useState(null);
-  const [anchorElRight, setAnchorElRight] = React.useState(null);
+  // const [anchorElLeft, setAnchorElLeft] = React.useState(null);
+  // const [anchorElTop, setAnchorElTop] = React.useState(null);
+  // const [anchorElBottom, setAnchorElBottom] = React.useState(null);
+  // const [anchorElRight, setAnchorElRight] = React.useState(null);
   const [classicModal, setClassicModal] = React.useState(false);
   return (
     <div className={classes.section}>
