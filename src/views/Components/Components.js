@@ -29,9 +29,9 @@ import SectionCarousel from "./Sections/SectionCarousel.js";
 // import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-import CardBody from "../../components/Card/CardBody";
-import InfoArea from "../../components/InfoArea/InfoArea";
-import CustomTabs from "../../components/CustomTabs/CustomTabs";
+
+import  MoDalNews from "./Sections/MoDalNews";
+import SectionTypographyHero from "./Sections/SectionTypographyHero";
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
@@ -62,42 +62,32 @@ export default function Components(props) {
 
               </div>
             </GridItem>
+            <GridItem>
+              <MoDalNews />
+            </GridItem>
           </GridContainer>
         </div>
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <GridItem md={12} className={classes.textCenter} >
-          <div className="news">
-            <h3 id="news1">Webinar 12-2-2021</h3>
-            <p>Free lesson for totally beginners
-              on my youtube channel</p>
-
-          </div>
-          <div className="news">
-            <h3 id="news1">Webinar 12-2-2021</h3>
-            <p>Free lesson for totally beginners
-              on my youtube channel</p>
-
-          </div>
-          <div className="news">
-            <h3 id="news1">Webinar 12-2-2021</h3>
-            <p>Free lesson for totally beginners
-              on my youtube channel</p>
-
-          </div>
 
 
-        </GridItem>
+        {/*<GridItem md={12} className={classes.textCenter} >*/}
+        {/*  <div className="news">*/}
+        {/*    <h3 id="news1">Webinar 12-2-2021</h3>*/}
+        {/*    <p>Free lesson for totally beginners*/}
+        {/*      on my youtube channel</p>*/}
+        {/*  </div>*/}
+        {/*</GridItem>*/}
+
         {/*<SectionBasics />*/}
         {/*<SectionNavbars />*/}
         {/*<SectionTabs />*/}
         {/*<SectionPills />*/}
         {/*<SectionNotifications />*/}
-        {/*<SectionTypography />*/}
-        {/*<SectionJavascript />*/}
+        <SectionTypographyHero />
         <SectionCarousel />
-        {/*<SectionComplete/dExamples />*/}
+        {/*<SectionCompletedExamples />*/}
         {/*<SectionLogin />*/}
       </div>
       <Footer />
