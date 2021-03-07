@@ -23,8 +23,8 @@ export default function SectionTypographyHero() {
     <div className={classes.section}>
       <div className={classes.container}>
         {/*<GridItem xs={14} sm={4}>*/}
-        <div className={classes.container}>
-          <div className=" avaImg">
+        <div className="container-fluid">
+          <div className=" avaImg ">
             <img
               src={ava}
               alt="ava"
@@ -32,8 +32,8 @@ export default function SectionTypographyHero() {
             />
           </div>
         </div>
-        {/*</GridItem>*/}
 
+        {/*</GridItem>*/}
         <div id="typography">
           <GridItem>
             <div>
