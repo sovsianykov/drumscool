@@ -23,12 +23,14 @@ export default function SectionTypographyHero() {
     <div className={classes.section}>
       <div className={classes.container}>
         {/*<GridItem xs={14} sm={4}>*/}
-        <div className=" avaImg">
-          <img
-            src={ava}
-            alt="ava"
-            className={classes.imgRounded + " " + classes.imgFluid}
-          />
+        <div className={classes.container}>
+          <div className=" avaImg">
+            <img
+              src={ava}
+              alt="ava"
+              className={classes.imgRounded + " " + classes.imgFluid}
+            />
+          </div>
         </div>
         {/*</GridItem>*/}
 
