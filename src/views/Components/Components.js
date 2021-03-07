@@ -31,6 +31,7 @@ import SectionCarousel from "./Sections/SectionCarousel.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 import MoDalNews from "./Sections/MoDalNews";
+// import SectionTypography from "./Sections/SectionTypography";
 import SectionTypographyHero from "./Sections/SectionTypographyHero";
 const useStyles = makeStyles(styles);
 
@@ -57,6 +58,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Sangit Drum</h1>
                 {/*<h3 className={classes.subtitle}></h3>*/}
+
                 <h2> Проект Сергея Табунщика</h2>
               </div>
             </GridItem>
@@ -68,11 +70,14 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <GridItem md={12} className={classes.textCenter}>
-          <SectionTypographyHero />
-        </GridItem>
+        <GridContainer>
+          <GridItem md={12} className={classes.textCenter}>
+            <SectionTypographyHero />
+          </GridItem>
+        </GridContainer>
         <SectionCarousel id="heroCarousel" />
       </div>
+
       <Footer />
     </div>
   );

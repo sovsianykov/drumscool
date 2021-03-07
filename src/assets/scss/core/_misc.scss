@@ -125,42 +125,14 @@ form {
   margin-bottom: 1.125rem;
 }
 
-.news {
-  display: inline-block;
-  margin: 20px 5px;
-  border: 1px solid #c3c3c3;
-  box-shadow: 0 0 7px #aca7a7;
-  border-radius: 5px;
-  padding: 20px;
-  position: relative;
-  top: 20px;
-  width: 20%;
-}
-.makeStyles-typo-122 {
-  margin: 0 auto !important;
-  padding: 20px 10px !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.titleHolder {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-around;
-  margin-bottom: 50px;
 
-  //.avaimg {
-  //  position: relative;
-  //  left: -300px!important;
-  //  width: 170px;
-  //  display: block;
-  //}
+#typography {
+
+  display: flex!important;
+  flex-direction: column;
+  align-items: center;
+
 }
-.mainText {
-  text-align: center;
+div.makeStyles-space50-120 {
+  display: none;
 }

@@ -16,7 +16,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-
 import styles from "assets/jss/material-kit-react/views/componentsSections/javascriptStyles.js";
 import { LibraryMusicSharp } from "@material-ui/icons";
 
@@ -38,7 +37,7 @@ export default function MoDalNews() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <GridContainer >
+        <GridContainer>
           <GridItem xs={12} sm={12} md={12}>
             <GridContainer>
               <GridItem xs={8} sm={8} md={4} lg={4}>
@@ -49,7 +48,7 @@ export default function MoDalNews() {
                   onClick={() => setClassicModal(true)}
                   classes={{
                     button: classes.center,
-                    paper: classes.modal
+                    // paper: classes.modal,
                   }}
                 >
                   <LibraryMusicSharp className={classes.icon} />
@@ -58,7 +57,7 @@ export default function MoDalNews() {
                 <Dialog
                   classes={{
                     root: classes.center,
-                    paper: classes.modal
+                    // paper: classes.modal,
                   }}
                   open={classicModal}
                   TransitionComponent={Transition}
@@ -86,19 +85,22 @@ export default function MoDalNews() {
                   <DialogContent
                     id="classic-modal-slide-description"
                     className={classes.modalBody}
-                  >  <h2>Барабанная йога!</h2>
+                  >
+                    {" "}
+                    <h2>Барабанная йога!</h2>
                     <p>
-                      Узнай себя через барабаны!
-                      Вы можете быть человеком любой профессии, но каким бы делом вы ни занимались, вам необходимо уметь концентрировать свое внимание на одном или нескольких действиях одновременно.
-                      Барабанная йога это процесс гармоничного взаимодействия нашей психики и физического тела через игру на барабанах. Синхронизация различных действий в едином потоке ритма барабанов.
-                      Барабанная йога это возвращение чувства расслабленности через сознавание движений своего тела, это обретение внутреннего комфорта.
-                      Индивидуальные встречи!
-                      066 965 89 25
-                      Студия «Eurovox»
-                      ул. Межигірська, 87А,
-                      ст. метро Т. Шевченко
-                      КИЕВ
-
+                      Узнай себя через барабаны! Вы можете быть человеком любой
+                      профессии, но каким бы делом вы ни занимались, вам
+                      необходимо уметь концентрировать свое внимание на одном
+                      или нескольких действиях одновременно. Барабанная йога это
+                      процесс гармоничного взаимодействия нашей психики и
+                      физического тела через игру на барабанах. Синхронизация
+                      различных действий в едином потоке ритма барабанов.
+                      Барабанная йога это возвращение чувства расслабленности
+                      через сознавание движений своего тела, это обретение
+                      внутреннего комфорта. Индивидуальные встречи! 066 965 89
+                      25 Студия «Eurovox» ул. Межигірська, 87А, ст. метро Т.
+                      Шевченко КИЕВ
                     </p>
                   </DialogContent>
                   <DialogActions className={classes.modalFooter}>
@@ -118,7 +120,6 @@ export default function MoDalNews() {
             </GridContainer>
           </GridItem>
         </GridContainer>
-
       </div>
     </div>
   );

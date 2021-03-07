@@ -11,6 +11,7 @@ import Quote from "components/Typography/Quote.js";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 import GridItem from "../../../components/Grid/GridItem";
+// import GridContainer from "../../../components/Grid/GridContainer";
 
 const useStyles = makeStyles(styles);
 
@@ -21,18 +22,8 @@ export default function SectionTypographyHero() {
       <div className={classes.container}>
         <div id="typography">
           <GridItem>
-            <div className={classes.typo}>
+            <div>
               <div className="titleHolder">
-                {/*<div className="avaimg">*/}
-                {/*  <img*/}
-                {/*    id="ava"*/}
-                {/*    src={ava}*/}
-                {/*    alt="ava"*/}
-                {/*    className={*/}
-                {/*      classes.imgRoundedCircle + " " + classes.imgFluid*/}
-                {/*    }*/}
-                {/*  />*/}
-                {/*</div>*/}
                 <h2 className="avatitle">
                   Обучение игре на барабанах детей и взрослых.
                 </h2>
