@@ -5,7 +5,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 
 // core components
-import GridContainer from "components/Grid/GridContainer.js";
 
 import Quote from "components/Typography/Quote.js";
 // import ava from "assets/img/avatab.jpg";
