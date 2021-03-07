@@ -138,19 +138,40 @@ form {
   top: 20px;
   width: 20%;
 }
-.titleHolder {
 
 
-  width: 100%;
-  height: 100px;
-  display: flex;
-  margin-bottom: 50px;
-  .avaimg {
-    position: relative;
-    left: -300px!important;
-    width: 170px;
-    display: block;
+.makeStyles-typo-122 {
+  margin: 0 auto!important;
+  padding: 20px 10px !important;
+
+  .titleHolder {
+
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    //.avaimg {
+    //  position: relative;
+    //  left: -300px!important;
+    //  width: 170px;
+    //  display: block;
+    //}
   }
+  .mainText  {
+    text-align: center;
+
+  }
+}
+.makeStyles-section-146,
+.makeStyles-section-118 {
+  padding-bottom: 30px!important;
+  padding-top: 30px!important;
 }
 
 
