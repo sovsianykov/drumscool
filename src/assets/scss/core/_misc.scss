@@ -141,13 +141,19 @@ div.makeStyles-section-128 {
 .makeStyles-container-101 {
   padding: 0!important;
 }
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .avaImg {
-  margin: 0 auto;
+  margin: 0  auto;
   padding: 0;
-  width: 300px;
+  width: 280px;
   height: 300px;
   overflow: hidden;
   img {
+
     display: block;
     width: 100%;
   }
