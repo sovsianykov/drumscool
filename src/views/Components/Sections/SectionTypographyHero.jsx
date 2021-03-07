@@ -7,10 +7,12 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 
 import Quote from "components/Typography/Quote.js";
-// import ava from "assets/img/avatab.jpg";
+import ava from "assets/img/avatab1.png";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 import GridItem from "../../../components/Grid/GridItem";
+// import GridContainer from "../../../components/Grid/GridContainer";
+// import image from "../../../assets/img/faces/avatar.jpg";
 // import GridContainer from "../../../components/Grid/GridContainer";
 
 const useStyles = makeStyles(styles);
@@ -20,6 +22,16 @@ export default function SectionTypographyHero() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
+        {/*<GridItem xs={14} sm={4}>*/}
+        <div className=" avaImg">
+          <img
+            src={ava}
+            alt="ava"
+            className={classes.imgRounded + " " + classes.imgFluid}
+          />
+        </div>
+        {/*</GridItem>*/}
+
         <div id="typography">
           <GridItem>
             <div>

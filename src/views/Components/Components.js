@@ -64,9 +64,6 @@ export default function Components(props) {
                 <h3> Проект Сергея Табунщика</h3>
               </div>
             </GridItem>
-            <GridItem>
-              <MoDalNews />
-            </GridItem>
           </GridContainer>
         </div>
       </Parallax>
@@ -75,6 +72,9 @@ export default function Components(props) {
         <GridContainer>
           <GridItem md={12} className={classes.textCenter}>
             <SectionTypographyHero />
+          </GridItem>
+          <GridItem>
+            <MoDalNews />
           </GridItem>
         </GridContainer>
         <SectionCarousel id="heroCarousel" />
