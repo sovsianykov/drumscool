@@ -37,7 +37,7 @@ export default function SectionCarousel() {
                 <div>
                   <img src={image1} alt="First slide" className="slick-image" />
                   <div className="slick-caption">
-                    <h4>СЕРГЕЙ ТАБУНЩИК</h4>
+                    {/*<h4>СЕРГЕЙ ТАБУНЩИК</h4>*/}
                   </div>
                 </div>
                 <div>
@@ -47,13 +47,13 @@ export default function SectionCarousel() {
                     className="slick-image"
                   />
                   <div className="slick-caption">
-                    <h4>СЕРГЕЙ ТАБУНЩИК</h4>
+                    {/*<h4>СЕРГЕЙ ТАБУНЩИК</h4>*/}
                   </div>
                 </div>
                 <div>
                   <img src={image3} alt="Third slide" className="slick-image" />
                   <div className="slick-caption">
-                    <h4>СЕРГЕЙ ТАБУНЩИК</h4>
+                    {/*<h4>СЕРГЕЙ ТАБУНЩИК</h4>*/}
                   </div>
                 </div>
               </Carousel>
