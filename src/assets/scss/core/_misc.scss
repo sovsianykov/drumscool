@@ -138,12 +138,14 @@ form {
   top: 20px;
   width: 20%;
 }
-
-
 .makeStyles-typo-122 {
+
   margin: 0 auto!important;
   padding: 20px 10px !important;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   .titleHolder {
 
 
@@ -167,11 +169,6 @@ form {
     text-align: center;
 
   }
-}
-.makeStyles-section-146,
-.makeStyles-section-118 {
-  padding-bottom: 50px!important;
-  padding-top: 50px!important;
 }
 
 

@@ -68,23 +68,10 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        {/*<GridItem md={12} className={classes.textCenter} >*/}
-        {/*  <div className="news">*/}
-        {/*    <h3 id="news1">Webinar 12-2-2021</h3>*/}
-        {/*    <p>Free lesson for totally beginners*/}
-        {/*      on my youtube channel</p>*/}
-        {/*  </div>*/}
-        {/*</GridItem>*/}
-
-        {/*<SectionBasics />*/}
-        {/*<SectionNavbars />*/}
-        {/*<SectionTabs />*/}
-        {/*<SectionPills />*/}
-        {/*<SectionNotifications />*/}
-        <SectionTypographyHero />
+        <GridItem md={12} className={classes.textCenter}>
+          <SectionTypographyHero />
+        </GridItem>
         <SectionCarousel id="heroCarousel" />
-        {/*<SectionCompletedExamples />*/}
-        {/*<SectionLogin />*/}
       </div>
       <Footer />
     </div>

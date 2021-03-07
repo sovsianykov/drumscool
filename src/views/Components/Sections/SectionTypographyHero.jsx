@@ -11,6 +11,7 @@ import Quote from "components/Typography/Quote.js";
 // import ava from "assets/img/avatab.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
+import GridItem from "../../../components/Grid/GridItem";
 
 const useStyles = makeStyles(styles);
 
@@ -20,7 +21,7 @@ export default function SectionTypographyHero() {
     <div className={classes.section}>
       <div className={classes.container}>
         <div id="typography">
-          <GridContainer>
+          <GridItem>
             <div className={classes.typo}>
               <div className="titleHolder">
                 {/*<div className="avaimg">*/}
@@ -79,7 +80,7 @@ export default function SectionTypographyHero() {
                 </p>
               </div>
             </div>
-          </GridContainer>
+          </GridItem>
         </div>
         <div className={classes.space50} />
         <div className={classes.space50} />
