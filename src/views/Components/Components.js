@@ -59,7 +59,7 @@ export default function Components(props) {
                 <h1 className={classes.title}>Sangit Drum</h1>
                 {/*<h3 className={classes.subtitle}></h3>*/}
 
-                <h2> Проект Сергея Табунщика</h2>
+                <h3> Проект Сергея Табунщика</h3>
               </div>
             </GridItem>
             <GridItem>
