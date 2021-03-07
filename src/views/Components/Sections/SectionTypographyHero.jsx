@@ -8,7 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 
 import Quote from "components/Typography/Quote.js";
-import ava from "assets/img/avatab.jpg";
+// import ava from "assets/img/avatab.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.js";
 
